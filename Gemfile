@@ -38,6 +38,7 @@ group :test do
   # gem 'wdm', '0.1.0'
 end
 
+gem  'therubyracer'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
