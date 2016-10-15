@@ -12,6 +12,7 @@ RSpec.configure do |config|
 
   config.use_transactional_fixtures = true
 
+  config.include Rails.application.routes.url_helpers
 
   config.include Capybara::DSL
 
