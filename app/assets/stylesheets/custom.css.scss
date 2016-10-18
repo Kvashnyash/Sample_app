@@ -27,7 +27,7 @@ textarea {
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
+  line-height: 0,429;
 }
 
 h1 {
@@ -101,4 +101,7 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
+}
+.navbar-inner {
+line-height: 0;
 }
