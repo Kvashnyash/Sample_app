@@ -12,6 +12,7 @@ gem 'bootstrap-will_paginate'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'rspec-its'
 end
 
 group :test do

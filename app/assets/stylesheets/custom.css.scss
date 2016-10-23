@@ -8,6 +8,8 @@ $gray-medium-light: #eaeaea;
 
 /* universal */
 
+
+$grayLighter: #eaeaea;
 $grayMediumLight: #eaeaea;
 
 @mixin box_sizing {
@@ -138,6 +140,7 @@ line-height: 0;
 aside {
   section {
     padding: 10px 0;
+    border-top: 1px solid $grayLighter;
     &:first-child {
       border: 0;
       padding-top: 0;
